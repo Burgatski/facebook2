@@ -1,0 +1,118 @@
+div.header {
+  width: 960px;
+  height:70px;
+  margin-left: 40px;
+  line-height: 70px;
+  text-align: left;
+  box-sizing: border-box;
+  background:#4267b2;
+}
+
+.containter{
+  width: 700px;
+  height: 800px;
+  margin-left: 300px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+#tdlApp{
+  width: 650px;
+  height: 160px;
+  margin-top:10px;
+  margin-left: 40px;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+}
+
+textarea { resize: none;
+  margin-top: 5px;
+  width: 650px;
+  height: 60px;
+  margin-bottom: 20px;
+
+}
+
+.tdItem{
+  padding: 10px;
+  cursor: default;
+  border-radius: 7px;
+}
+
+.tdItem:hover{
+  background-color: lightblue;
+}
+
+.sidebar{
+  width: 260px;
+  height: 960px;
+  float: left;
+  margin-left: 40px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+}
+
+.tic{display: none;}
+
+#menu{
+  width: 200px;
+  height: 70px;
+  margin-top: 5px;
+}
+#menu:hover{ background: #e1e5eb;cursor: pointer;}
+
+
+#button1 {
+  weight:300px;
+  height: 40px;
+  margin-left: 1px;
+  position: relative;
+  color:blue;
+  font-size: 13px;
+  font-family: Сomic Sans MS;
+  text-decoration: none;
+  padding: .4em 7em calc(.3em + 1px);
+  border-radius: 2px;
+  background:  #bbc3ff;
+  box-shadow: 0 -5px #8492ff inset;
+  transition: 0.2s;
+}
+#button1:hover { background: #97a4ff; }
+
+li {list-style-type:none;}
+
+h1 {
+font-family: 'Times New Roman', Times, serif;
+font-size: 200%;
+margin-left: 20px;
+margin-right: 3px;
+color: white;
+}
+
+h2 {
+font-family: 'Times New Roman', Times, serif;
+font-size: 120%;
+text-align:center;
+margin-top: 20px;
+margin-right: 3px;
+color: #2e88c5;
+}
+
+h3{
+  font-family: 'Сomic Sans MS', Times, serif;
+  font-size: 100%;
+  text-align:center;
+  color: black;
+}
+h4{
+  font-family: 'Сomic Sans MS', Times, serif;
+  font-size: 80%;
+  text-align:center;
+  color: gray;
+}
+h5{
+  font-family: 'Mistral', Times, serif;
+  font-size: 250%;
+  text-align:center;
+  color: #eb2fc8;
+}
